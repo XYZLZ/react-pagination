@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.ContainerIndex{
+  @apply flex justify-center items-end mt-1
+} 
+
+.mlist {
+  @apply inline-flex items-center space-x-1 rounded-md text-sm
+}
+
+.buttonC {
+  @apply inline-flex w-8 h-8 cursor-pointer items-center space-x-2 rounded-full border border-gray-300 bg-white dark:bg-slate-600 px-2 py-2 font-medium text-gray-500 hover:bg-gray-50
+}
+
+.counter {
+  @apply inline-flex items-center space-x-1 rounded-md bg-white dark:bg-transparent px-4 py-2 text-gray-500
+}
+
+.counterLeft {
+  @apply mx-1
+}
+ 
+.counterRight {
+  @apply ml-1
+} 
+
+.svg {
+  @apply w-5 h-5 text-red-500
+}
